@@ -15,7 +15,7 @@ if source_type == 'Books':
   title = st.text_input("Title of Book:")
   publisher = st.text_input("Publisher:")
   year_of_publication = st.date_input("Year of Publication:",
-                                      format="YYYY").year
+                                      format="YYYY")
 
   edition = st.text_input("Edition (optional):")
   volume = st.text_input("Volume (optional):")
